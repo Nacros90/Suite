@@ -11,3 +11,4 @@ for k in range (1,L):
     P=P+1
     print("U",P,"=",U)
     print("Le pas est égale à",k)
+print("Fin de la suite.")

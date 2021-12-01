@@ -13,6 +13,7 @@ if Suite==1:
         P=P+1
         print("U",P,"=",U)
         print("Le pas est égale à",k)
+        print()
 if Suite==2:
     print()
     U=int(input("Valeur de U0 : "))
@@ -26,5 +27,6 @@ if Suite==2:
         P=P+1
         print("U",P,"=",U)
         print("Le pas est égale à",k)
+        print()
 print()
 print("Fin de la suite.")

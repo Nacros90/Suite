@@ -1,4 +1,4 @@
-print("Ce programme sert à générer une suite, soit arithmétique, soit géométrique, avec un nombre de pas définissable, une valeur \"U0\" définissable et une raison \"q\" définissable. Toutes les valeurs définissables sont définies par l'utilisateur ")
+print("Ce programme sert à générer une suite, soit arithmétique, soit géométrique, avec un nombre de pas définissable, une valeur \"U0\" définissable et une raison \"q\" définissable. Toutes les valeurs définissables sont définies par l'utilisateur et doivent être entières.")
 Suite=int(input("Quel type de suite voulez générer (1. arithmétique; 2. géométrique) (Veuillez entrez le chiffre corrrepondant à la réponse) ? "))
 if Suite==1:
     print()

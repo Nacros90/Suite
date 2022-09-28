@@ -2,7 +2,7 @@ print("Ce programme sert à générer une suite géométrique fini avec une vale
 print()
 U=int(input("Valeur de \"U0\" : "))
 U0=U
-q=int(input("Valeur de la raison \"q\" : "))
+q=float(input("Valeur de la raison \"q\" : "))
 L=int(input("Longueur de la suite : "))
 P=0
 print("U0=",U0)

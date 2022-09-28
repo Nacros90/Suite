@@ -1,6 +1,6 @@
 print("Ce programme sert à générer une suite géométrique fini avec une valeur U0 et un raison q défini par l'utilisateur.")
 print()
-U=int(input("Valeur de \"U0\" : "))
+U=float(input("Valeur de \"U0\" : "))
 U0=U
 q=float(input("Valeur de la raison \"q\" : "))
 L=int(input("Longueur de la suite : "))

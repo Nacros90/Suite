@@ -2,9 +2,9 @@ print("Ce programme sert à générer une suite, soit arithmétique, soit géom�
 Suite=int(input("Quel type de suite voulez générer (1. arithmétique; 2. géométrique) (Veuillez entrez le chiffre corrrepondant à la réponse) ? "))
 if Suite==1:
     print()
-    U=int(input("Valeur de \"U0\" : "))
+    U=float(input("Valeur de \"U0\" : "))
     U0=U
-    q=int(input("Valeur de la raison \"q\" : "))
+    q=float(input("Valeur de la raison \"q\" : "))
     L=int(input("Nombre de pas : "))
     P=0
     print("U0=",U0)
@@ -16,9 +16,9 @@ if Suite==1:
         print()
 if Suite==2:
     print()
-    U=int(input("Valeur de \"U0\" : "))
+    U=float(input("Valeur de \"U0\" : "))
     U0=U
-    q=int(input("Valeur de la raison \"q\" : "))
+    q=float(input("Valeur de la raison \"q\" : "))
     L=int(input("Longueur de la suite : "))
     P=0
     print("U0=",U0)
